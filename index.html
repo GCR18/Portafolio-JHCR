@@ -217,7 +217,7 @@ section{position:relative;padding:clamp(70px,10vw,120px) 0;overflow-x:clip}
 .role p{font-size:13.5px;color:var(--mute);margin-top:4px}
 .role .inst{font-size:12.5px;text-align:right;color:#d6d0c3;max-width:26ch}
 .proposal{margin-top:70px;display:grid;grid-template-columns:minmax(220px,340px) 1fr;gap:clamp(24px,4vw,56px);background:var(--ink-2);border:1px solid var(--line);border-radius:6px;padding:clamp(20px,3.5vw,44px);position:relative;z-index:1}
-.proposal .photo{aspect-ratio:4/5;border-radius:3px}
+.proposal .photo{aspect-ratio:735/490;align-self:start;border-radius:3px}
 .badge{display:inline-block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;border:1px solid var(--gold);color:var(--gold);padding:5px 10px;border-radius:3px}
 .proposal h3{font-size:clamp(28px,3.4vw,42px);margin:16px 0 12px}
 .proposal p{color:#d6d0c3;max-width:60ch}
@@ -225,7 +225,7 @@ section{position:relative;padding:clamp(70px,10vw,120px) 0;overflow-x:clip}
 .pill-row span{font-size:12.5px;border:1px solid var(--line);border-radius:999px;padding:6px 14px}
 .cols2{display:grid;grid-template-columns:1fr 1fr;gap:6px 26px;font-size:13.5px;color:#d6d0c3;list-style:none;margin-top:8px}
 .cols2 li::before{content:"— ";color:var(--gold)}
-@media(max-width:860px){.role{grid-template-columns:1fr;gap:6px}.role .inst{text-align:left}.proposal{grid-template-columns:1fr}.proposal .photo{aspect-ratio:16/10}.cols2{grid-template-columns:1fr}}
+@media(max-width:860px){.role{grid-template-columns:1fr;gap:6px}.role .inst{text-align:left}.proposal{grid-template-columns:1fr}.proposal .photo{aspect-ratio:735/490}.cols2{grid-template-columns:1fr}}
 
 /* competencias */
 .skills{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -366,7 +366,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px}
       <p>También trabajo en la transcripción y adaptación de música para conjuntos de metales. Me interesa combinar la interpretación, la formación musical y el trabajo colectivo para construir experiencias musicales sólidas y expresivas.</p>
       <div class="edu">
         <span class="label" style="padding:16px 0 4px">Formación académica y musical</span>
-        <div><div><b>Licenciatura en Música</b><span>Universidad Mayor de San Simón (UMSS)</span></div><em>Tres semestres cursados</em></div>
+        <div><div><b>Licenciatura en Música</b><span>Universidad Mayor de San Simón (UMSS) · Tres semestres cursados</span></div><em>En curso</em></div>
         <div><div><b>Verano Musical</b><span>Universidad Adventista de Bolivia (UAB) · también en su Banda Sinfónica</span></div><em>2021 – 2023</em></div>
         <div><div><b>Ingeniería Civil</b><span>Universidad Adventista de Bolivia (UAB)</span></div><em>En curso</em></div>
       </div>
@@ -398,7 +398,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px}
           <button class="btn" id="cvOpen2">Visualizar CV</button>
           <a class="btn solid" href="docs/cv-jhesef-condori-rondo.pdf" target="_blank" rel="noopener">Descargar PDF ↓</a>
         </div>
-        <small class="cv-note">PDF · 1 página · 172 KB</small>
+        <small class="cv-note">PDF · 1 página · 664 KB</small>
       </div>
     </div>
   </div>
@@ -427,9 +427,8 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px}
         <div class="photo cover"><img src="img/partitura.jpg" alt="" loading="lazy"></div>
         <div class="pinfo">
           <h3>Sea exaltado</h3>
-          <div class="chips"><span class="chip">Arreglo o transcripción</span><span class="chip gold">Material pendiente</span></div>
-          <p>Trabajo de arreglo o transcripción realizado por Jhesef.</p>
-          <div class="todo"><b>Por incorporar:</b> partitura, instrumentación definitiva, fecha y grabación, si existe.</div>
+          <div class="chips"><span class="chip">Escritura musical</span></div>
+          <p>Trabajo de escritura musical realizado por Jhesef.</p>
         </div>
       </article>
       <article data-reveal style="--i:1">
@@ -439,7 +438,6 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px}
           <div class="chips"><span class="chip">Agrupación de bronces</span><span class="chip gold">En desarrollo</span></div>
           <p>Concepto artístico del proyecto:</p>
           <ul><li>Introducción lírica y tranquila.</li><li>Sonoridad cálida.</li><li>Crecimiento progresivo.</li><li>Puntos de desarrollo musical.</li><li>Clímax potente.</li></ul>
-          <div class="todo"><b>Estado:</b> por confirmar antes de presentarlo como obra terminada.</div>
         </div>
       </article>
     </div>
@@ -457,7 +455,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px}
     <div class="roles" id="roles"></div>
 
     <div class="proposal" data-reveal>
-      <div class="photo"><img src="img/banda-direccion-2.jpg" alt="Banda escolar en formación durante una presentación nocturna" loading="lazy"></div>
+      <div class="photo"><img src="img/banda-uab-2027.jpg" alt="Sección de trompetas tocando en formación al aire libre" loading="lazy"></div>
       <div>
         <span class="badge">Propuesta en desarrollo · sujeta a aprobación</span>
         <h3>Sección de Bronces — Banda UAB 2027</h3>
@@ -508,7 +506,6 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px}
         <a href="mailto:jhesefcondorirondo@gmail.com"><small>Correo</small><b>jhesefcondorirondo@gmail.com</b></a>
         <a href="https://wa.me/59163618738"><small>WhatsApp</small><b>63618738</b></a>
         <span><small>Ubicación</small><b>Cochabamba, Bolivia</b></span>
-        <span><small>Redes y YouTube</small><b style="color:var(--mute)">Por agregar</b></span>
       </div>
       <form id="form" novalidate>
         <div class="field"><label for="f-name">Nombre</label><input id="f-name" name="name" autocomplete="name"></div>
@@ -533,7 +530,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 30px}
       <div><a class="mono" href="#inicio"><b>J<i>C</i>R</b><span>Jhesef Condori Rondo</span></a><p style="color:var(--mute);margin-top:14px;max-width:30ch">Intérprete y educador musical. Cochabamba, Bolivia.</p></div>
       <div><h5>Secciones</h5><ul><li><a href="#perfil">Perfil</a></li><li><a href="#interpretacion">Interpretación</a></li><li><a href="#transcripciones">Transcripciones</a></li><li><a href="#docencia">Docencia</a></li></ul></div>
       <div><h5>Más</h5><ul><li><a href="#competencias">Competencias</a></li><li><a href="#ingenieria">Ingeniería Civil</a></li><li><a href="#contacto">Contacto</a></li></ul></div>
-      <div><h5>Contacto</h5><ul><li>jhesefcondorirondo@gmail.com</li><li>63618738</li><li>Redes: por agregar</li></ul></div>
+      <div><h5>Contacto</h5><ul><li>jhesefcondorirondo@gmail.com</li><li>63618738</li></ul></div>
     </div>
     <div class="foot-bottom"><span>© 2026 Jhesef Condori Rondo</span><span>Partituras © Jhesef · uso con autorización</span></div>
   </div>
@@ -555,14 +552,14 @@ const PROYECTOS=[
   {title:'Great is Thy Faithfulness',type:'Arreglo',img:'img/great-is-thy-faithfulness.jpg',
    desc:'Arreglo para ensamble de bronces. Comienza en pianissimo con los cornos barítonos y la tuba, y suma melófonos y trompetas de forma progresiva.',
    meta:[['Instrumentación','3 trompetas en Si♭, 2 melófonos, 3 cornos barítonos, tuba'],['Tempo y compás','♩ = 68 · 3/4'],['Partitura','Fragmento, páginas 1 y 2']],
-   audio:'audio/grabacion-02.mp3',todo:'Fecha del arreglo y agrupación de la grabación.'},
+   audio:'audio/grabacion-02.mp3'},
   {title:'It Is Well',type:'Arreglo',img:'img/it-is-well.jpg',
    desc:'Arreglo para ensamble de bronces con trompas en Fa al frente de la melodía y los cornos barítonos sosteniendo la armonía.',
    meta:[['Instrumentación','2 trompetas en Si♭, 2 trompas en Fa, 3 cornos barítonos, tuba'],['Tempo y compás','♩ = 90 · 4/4'],['Partitura','Fragmento, páginas 1 y 2']],
-   audio:'audio/grabacion-01.mp3',todo:'Fecha del arreglo y agrupación de la grabación.'},
+   audio:'audio/grabacion-01.mp3'},
 ];
 const DOCENCIA=[
-  {y:'2026',role:'Director de la Sección de Bronces',inst:'Colegio Secundario Cristina Prado',d:'Dirección y coordinación del trabajo musical de la sección de bronces.'},
+  {y:'2026',role:'Director de la Sección de Bronces',inst:'Unidad Educativa Cristina Prado\u00a0B.',d:'Dirección y coordinación del trabajo musical de la sección de bronces.'},
   {y:'2025',role:'Instructor de Trompetas',inst:'Colegio Adventista de Bolivia en Vinto',d:'Formación instrumental y desarrollo técnico de la sección de trompetas.'},
   {y:'2024 – 25',role:'Docente de Trompeta e Instructor de la Sección de Bronces',inst:'Verano Musical — Universidad Adventista de Bolivia',d:'Enseñanza individual de trompeta y formación musical colectiva de viento-metal.'},
   {y:'2024',role:'Instructor de la Sección de Bronces',inst:'Colegio Adventista Cochabamba (CAC)',d:'Preparación y enseñanza musical colectiva de la sección de bronces.'},
@@ -600,8 +597,7 @@ $('#projects').innerHTML=PROYECTOS.map((p,i)=>`<article class="proj" data-reveal
   <figure class="sheet" tabindex="0" role="button" aria-label="Ampliar partitura de ${esc(p.title)}" data-img="${p.img}" data-cap="${esc(p.title)} — arr. Jhesef"><img src="${p.img}" alt="Primeras páginas de la partitura de ${esc(p.title)}, arreglo de Jhesef" loading="lazy"><span class="zoom">Ampliar</span></figure>
   <div class="pinfo"><h3>${esc(p.title)}</h3><div class="chips"><span class="chip solid">${esc(p.type)}</span><span class="chip">arr. Jhesef</span></div>
    <p>${esc(p.desc)}</p><dl>${p.meta.map(([k,v])=>`<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl>
-   ${p.audio?`<div class="player-slot" data-src="${p.audio}" data-title="Grabación · ${esc(p.title)}"></div>`:''}
-   <div class="todo"><b>Por incorporar:</b> ${esc(p.todo)}</div></div></article>`).join('');
+   ${p.audio?`<div class="player-slot" data-src="${p.audio}" data-title="Grabación · ${esc(p.title)}"></div>`:''}</div></article>`).join('');
 
 /* lightbox */
 const lb=$('#lb');

@@ -35,6 +35,4 @@ Para verlo en tu computadora sin subirlo: `python3 -m http.server` dentro de la 
 
 ## Pendiente de completar
 
-- Enlaces a redes sociales y YouTube (sección Contacto: "Por agregar").
-- Títulos, agrupación y fecha de las grabaciones.
-- Material de «Sea exaltado» y estado de «Cuán grande es Él».
+- Enlaces a redes sociales y YouTube, cuando existan (se pueden agregar en la sección Contacto y en el pie de página).
